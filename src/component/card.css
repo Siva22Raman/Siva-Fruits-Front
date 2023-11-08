@@ -1,0 +1,36 @@
+.card {
+    border-radius: 20px;
+     /* Set border-radius to 20px for all corners */
+  }
+  
+  /* Optional: Style for star ratings */
+  .ratings .star {
+    color: gold; /* Change the star color as desired */
+  }
+  #hi{
+        /* Color Blend CSS Code */
+        background: linear-gradient(135deg,violet, lightblue);
+        background-image: url("");
+        background: transparent url("https://img.freepik.com/free-vector/gradient-background-with-bokeh-effect_23-2148365959.jpg") center/cover no-repeat;
+        background-blend-mode: screen;
+        border-bottom-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+  }
+  .text-center {
+    text-align: center;
+  }
+  .card-title{
+    color: rgb(0, 0, 0);
+  }
+.card-text{
+  height: 2%;
+  color: rgb(0, 0, 0);
+  text-overflow: none;
+}
+
+/* card.css */
+.c:hover {
+  transform: translateY(-25px); /* Adjust the value as needed to control the lift height */
+  transition: transform 0.4s ease; /* Adjust the transition duration as needed */
+}
+

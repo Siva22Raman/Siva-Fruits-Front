@@ -1,0 +1,83 @@
+/* navbar.css */
+
+/* Navbar container styles */
+.navbar {
+    background-color: #de1f1f;
+    background-image: url("https://t3.ftcdn.net/jpg/00/86/56/12/360_F_86561234_8HJdzg2iBlPap18K38mbyetKfdw1oNrm.jpg");
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 10px 30px;
+    border-radius: 0;
+  }
+  .navbar .navbar-nav {
+    border-radius: 16px;
+    background-color: rgb(187, 182, 233); /* Replace with your desired background color */
+  }
+  
+  .navbar-brand {
+    font-size: 24px;
+    font-weight: bold;
+    color: #ff0000;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  
+  .navbar-brand:hover {
+    color: #007bff; /* Change the color on hover */
+  }
+  
+  .navbar-toggler {
+    background: none;
+    border: none;
+  }
+  
+  .navbar-toggler:focus {
+    outline: none;
+  }
+  
+  /* Navigation items styles */
+  .nav-item {
+    margin-right: 20px;
+    color: #007bff;
+  }
+  
+  .nav-link {
+    color: #333;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  
+  .nav-link:hover {
+    color: #1641ed; /* Change the color on hover */
+  }
+  
+  /* Dropdown menu styles */
+  .dropdown-toggle {
+    background-color: #f3e8f4;
+    border: none;
+    color: #000000;
+    transition: color 0.3s;
+  }
+  
+  .dropdown-toggle:hover {
+    color: #007bff; /* Change the color on hover */
+  }
+  
+  .dropdown-menu {
+    background-color: #471afb;
+    border: none;
+  }
+  
+  /* Icon styles (customize as needed) */
+  .nav-link svg {
+    font-size: 24px;
+    vertical-align: middle;
+  }
+  
+  /* User dropdown styles */
+  .user-dropdown .dropdown-toggle {
+    display: flex;
+    align-items: center;
+  }
+  
+  /* Add any additional styles or interactions as needed */
+  

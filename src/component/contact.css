@@ -1,0 +1,120 @@
+/* contact-styles.css */
+
+/* Style the entire contact form container */
+
+.contact-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-image: url("https://img.freepik.com/free-vector/flat-geometric-background_23-2148945952.jpg?size=626&ext=jpg&ga=GA1.1.1834760477.1679321165&semt=ais");
+  
+}
+
+/* Style the contact content */
+.contact-content {
+  background:url("https://img.freepik.com/free-vector/blue-fluid-background-frame_53876-99019.jpg?size=626&ext=jpg&ga=GA1.1.1834760477.1679321165&semt=ais");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  max-width: 600px;
+  width: 100%;
+}
+
+/* Style the contact details section */
+.contact-details {
+  text-align: center;
+  padding: 20px;
+}
+
+
+/* Style the contact items (phone and email) */
+.contact-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.contact-icon {
+  font-size: 24px;
+  margin-right: 10px;
+}
+
+.contact-label {
+  font-weight: bold;
+}
+
+.contact-bold {
+  font-weight: bold;
+}
+
+/* Style the contact form */
+.contact-form {
+  padding: 20px;
+  text-align: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group {
+  margin: 10px 0;
+  text-align: left; /* Align the label text to the left */
+  display: block; /* Ensure each label appears on a new line */
+  margin-bottom: 5px;
+}
+
+label {
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="text"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+textarea {
+  resize: vertical;
+}
+
+.send-button {
+  background-color: #007BFF;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.send-button:hover {
+  background-color: #0056b3;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .contact-content {
+    padding: 10px;
+  }
+}
+.acknowledgement-message {
+  opacity: 0;
+  transition: opacity 1s ease-in-out; /* Define the transition */
+}
+
+.acknowledgement-message.show {
+  opacity: 1;
+}
