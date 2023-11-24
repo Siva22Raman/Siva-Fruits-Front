@@ -73,6 +73,35 @@ function ContactForm() {
               />
             </div>
             <div className="form-group">
+            <label>Gender</label>
+              <label>
+               <input
+                  type="radio"
+                  name="gender"
+                  value="male"
+                  
+                />
+                Male
+              </label>
+              <label>
+              &emsp;   <input
+                  type="radio"
+                  name="gender"
+                  value="female"
+                />
+                Female
+              </label>
+              <label>
+              &emsp;   <input
+                  type="radio"
+                  name="gender"
+                  value="other"
+                  
+                />
+                Other
+              </label>
+            </div>
+            <div className="form-group">
               <label htmlFor="email">Email:</label>
               <input
                 type="email"
@@ -105,6 +134,10 @@ function ContactForm() {
                 required
               ></textarea>
             </div>
+            <label><input type="checkbox" 
+            name='agree'
+            /> I agree to the terms and conditions</label>
+            <br></br>
             <button type="submit" className="send-button">
       {isLoading ? (
         <div className="loading-animation"></div>
